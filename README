@@ -1,5 +1,16 @@
 				   IMAPFilter
 
+My Notes:
+This was forked and includes the needed updates for Ubuntu 14.04 with Lua 5.2.
+Lua 5.2 was installed from the Ubuntu repositories (not from source). There
+are some required dependencies that must be installed (apt-get install make),
+but once those have been met, you should be able to follow the instructions
+below to complete your installation.
+
+Also note that I added an imapfilter.conf file. You can copy this to:
+/etc/init/imapfilter.conf. This way, the application will run every time the
+server boots.
+
 Description
 
   IMAPFilter is a mail filtering utility. It connects to remote mail servers
